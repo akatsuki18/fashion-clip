@@ -12,11 +12,8 @@ image = Image.open(image_path).convert("RGB")
 
 # 分類候補テキスト
 texts = [
-    "a person wearing street fashion",
-    "a person wearing casual style",
-    "a person in formal clothes",
-    "a person wearing sporty outfit",
-    "a person with vintage style"
+    "y2k fashion", "techwear", "normcore", "korean casual", "90s vintage",
+    "monochrome outfit", "colorful streetwear", "oversized silhouette"
 ]
 
 # 前処理
