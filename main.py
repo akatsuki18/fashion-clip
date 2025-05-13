@@ -7,7 +7,7 @@ model = CLIPModel.from_pretrained("patrickjohncyh/fashion-clip")
 processor = CLIPProcessor.from_pretrained("patrickjohncyh/fashion-clip")
 
 # 画像読み込み（ファイル名を調整）
-image_path = "fashion_image.jpg"
+image_path = "1744805252_1000.jpg"
 image = Image.open(image_path).convert("RGB")
 
 # 分類候補テキスト
